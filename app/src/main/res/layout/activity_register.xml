@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#D1ECF0"
+
+    tools:context=".Register">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE SIGNUP"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#64D8E6"/>
+    <EditText
+        android:id="@+id/EtName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="212dp"
+        android:layout_height="47dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:backgroundTint="#D9F2F5"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <EditText
+        android:id="@+id/EtID"
+        android:backgroundTint="#D9F2F5"
+        android:layout_width="212dp"
+        android:layout_height="47dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Enter Your ID"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="212dp"
+        android:layout_height="47dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D9F2F5"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="212dp"
+        android:layout_height="47dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#D9F2F5"/>
+
+    <Button
+        android:id="@+id/BtnSave"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#8BDCE6"
+        android:text="ADD"
+        android:textColor="#fff" />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#8BDCE6"
+        android:text="Create"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:visibility="gone"
+        />
+
+<TextView
+    android:id="@+id/txt_signin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Already Have an Account ? Sign In"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

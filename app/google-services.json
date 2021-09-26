@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593022975876",
+    "project_id": "blood-407ea",
+    "storage_bucket": "blood-407ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593022975876:android:9024877f45deaaa9b3e7d1",
+        "android_client_info": {
+          "package_name": "com.example.bloodlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593022975876-619nsvdk0v83k0813livtqsmr3g6j5nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlu2adCpv534jraFJ_nSAtGhn4uqzksKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593022975876-619nsvdk0v83k0813livtqsmr3g6j5nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
