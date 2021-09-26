@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+        android:layout_width="404dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"><![CDATA[
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    ]]>
+
+            <TextView
+                android:id="@+id/tvfood"
+                android:layout_width="140sp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Food name :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvfoodname"
+                android:layout_width="240sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="Rice and curry"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"><![CDATA[
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    ]]>
+
+            <TextView
+                android:id="@+id/tvquan"
+                android:layout_width="140sp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Quantity :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvquantity"
+                android:layout_width="240sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"><![CDATA[
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    ]]>
+
+            <TextView
+                android:id="@+id/tvcos"
+                android:layout_width="140sp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Total cost :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvcost"
+                android:layout_width="240sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="200"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"><![CDATA[
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    ]]>
+
+            <TextView
+                android:id="@+id/tvti"
+                android:layout_width="140sp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Ordered time :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="240sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="12:25"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"><![CDATA[
+            android:layout_width="404dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    ]]>
+
+            <TextView
+                android:id="@+id/tvro"
+                android:layout_width="140sp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Room no :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvroom"
+                android:layout_width="240sp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="20dp"
+                android:text="a205"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

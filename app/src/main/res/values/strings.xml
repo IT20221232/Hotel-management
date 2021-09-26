@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food ordering</string>
+    <string name="tv1">Order food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvf">Food name</string>
+    <string name="tvq">Quantity</string>
+    <string name="tvr">Room no</string>
+    <string name="tvc">Total cost</string>
+    <string name="tvt">Ordered time</string>
+    <string name="etf" />
+    <string name="etq" />
+    <string name="etc" />
+    <string name="ett" />
+    <string name="etr" />
+    <string name="btnadd">Cnfirm order</string>
+    <string name="btncancel">Cancel</string>
+    <string name="tvo">Order food</string>
+    <string name="tv">View all orders</string>
+    <string name="textv2">Order Food</string>
+
+</resources>
